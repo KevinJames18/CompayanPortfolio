@@ -1,0 +1,41 @@
+body {
+  font-family: cursive;
+}
+.Container1 {
+background: url('https://www.traveltourxp.com/wp-content/uploads/2016/12/Tourist-Attractions-In-Palawan.jpg') no-repeat center center;
+background-size: cover;
+height: 80vh;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+text-shadow: 0px 0px 10px black;
+}
+
+.section-padding {
+  padding: 60px 20px;
+}
+footer {
+  background: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+.attraction_img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+img{
+    transition: 1s;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.container:hover{
+    transform: scale(1.1);
+    transition: 100ms;
+}
